@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>windecker</title>
+<meta name="description" content="Things I build to learn: language apps, simulators, tools.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='9' fill='%231f1914'/></svg>">
+<style>
+  :root {
+    --bg: #f4eee3;
+    --ink: #1f1914;
+    --muted: #6b5c4d;
+    --line: #ccbaa3;
+    --accent: #8a4b2a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17130f;
+      --ink: #efe7da;
+      --muted: #a8998a;
+      --line: #3d342b;
+      --accent: #e0a37a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17130f;
+    --ink: #efe7da;
+    --muted: #a8998a;
+    --line: #3d342b;
+    --accent: #e0a37a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 16px 72px; }
+  h1 { font-size: 28px; font-weight: 500; margin: 0 0 16px; }
+  h2 {
+    font-size: 13px; font-weight: 500; letter-spacing: 1.4px; text-transform: uppercase;
+    color: var(--muted); margin: 44px 0 10px;
+  }
+  p { margin: 0 0 12px; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  .links { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 18px; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { padding: 10px 0; border-top: 1px solid var(--line); }
+  li:last-child { border-bottom: 1px solid var(--line); }
+  .name { font-weight: 500; }
+  .what { color: var(--muted); }
+  .tag {
+    display: inline-block; font-size: 12px; color: var(--muted); border: 1px solid var(--line);
+    border-radius: 999px; padding: 0 8px; margin-left: 6px; vertical-align: 2px;
+  }
+  footer { margin-top: 44px; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>hi, i'm windecker</h1>
+  <p>I make small tools to learn things properly: language apps that teach the way I want to be taught, simulators, and whatever else I'm curious about this month.</p>
+  <div class="links">
+    <a href="https://github.com/windeckersoftware">github</a>
+  </div>
+
+  <h2>runs in your browser</h2>
+  <ul>
+    <li>
+      <a class="name" href="hebrew/">hebrew</a><span class="tag">works offline</span>
+      <span class="what"> · short Hebrew lessons with spaced review. The vowel marks are a scaffold that fades, and only first tries count.</span>
+    </li>
+  </ul>
+
+  <h2>on github</h2>
+  <ul>
+    <li>
+      <a class="name" href="https://github.com/windeckersoftware/dronelab-in-rust">dronelab</a>
+      <span class="what"> · fast, deterministic multirotor and eVTOL simulator for reinforcement learning, in Rust, with a Gymnasium API.</span>
+    </li>
+    <li>
+      <a class="name" href="https://github.com/windeckersoftware/learnharness">learnharness</a>
+      <span class="what"> · an agent harness for learning difficult things.</span>
+    </li>
+  </ul>
+
+  <footer>Hosted free on GitHub Pages.</footer>
+</main>
+</body>
+</html>
