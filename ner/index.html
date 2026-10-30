@@ -109,10 +109,10 @@
       <h1>Read more.<br><em>Look things up less.</em></h1>
       <p class="lead">Ner is a reading app for language learners. Tap any word to see what it means, grade how well you know it, and keep reading. The next page already knows what you learned.</p>
       <div class="cta">
-        <a class="btn" href="../Ner-0.11.0.apk" download>↓ Download APK</a>
+        <a class="btn" href="../Ner-0.12.0.apk" download>↓ Download APK</a>
         <a class="btn alt" href="#install">How to install</a>
       </div>
-      <div class="meta">v0.11.0 · Android 8+ · 32.9 MB · dev-signed</div>
+      <div class="meta">v0.12.0 · Android 8+ · 32.9 MB · dev-signed</div>
       <div class="chips">
         <span class="chip">25 offline dictionaries</span>
         <span class="chip">EPUB + TXT + PDF</span>
@@ -120,6 +120,7 @@
         <span class="chip">YouTube captions</span>
         <span class="chip">Paged books</span>
         <span class="chip">Aa reading settings</span>
+        <span class="chip">Anki TSV export</span>
         <span class="chip">English &amp; Hungarian UI</span>
         <span class="chip">Ad shield</span>
         <span class="chip">Any base language</span>
@@ -140,6 +141,7 @@
     <div class="card"><div class="ico">▶</div><h3>Watch &amp; listen</h3><p>YouTube runs inside the app with a caption mirror: visible captions become clickable words.</p></div>
     <div class="card"><div class="ico">⌕</div><h3>25 dictionaries</h3><p>Hebrew, English, Arabic, Spanish, French, German, Italian, Portuguese, Dutch, Swedish, Danish, Norwegian, Finnish, Polish, Russian, Ukrainian, Greek, Turkish, Chinese, Cantonese, Japanese, Korean, Vietnamese, Indonesian, Thai.</p></div>
     <div class="card"><div class="ico">◒</div><h3>Your data stays local</h3><p>Words, settings, and statistics are a local JSON file. Export a backup whenever you want.</p></div>
+    <div class="card"><div class="ico">▤</div><h3>Anki-ready words</h3><p>Edit a meaning and its context sentence, then export a tab-separated file with word, reading, meaning, context, and language.</p></div>
     <div class="card"><div class="ico">文</div><h3>Interface languages</h3><p>System, Hebrew, English, or Hungarian chrome. The layout flips between RTL and LTR, independently of the language you are learning.</p></div>
     <div class="card"><div class="ico">🛡</div><h3>Shielded YouTube</h3><p>An in-app browser with address bar, back/forward/reload, request blocking, cosmetic cleanup, auto-skip, and a live blocked count.</p></div>
     <div class="card"><div class="ico">文</div><h3>Any base language</h3><p>Pick a native language or type any ISO 639-1 code. Meanings translate into it and cache locally; the default follows the device locale.</p></div>
@@ -163,6 +165,7 @@
     <div class="shot"><img src="media/yt-shield.jpg" alt="In-app YouTube browser with shield count"><small>In-app address bar and shield count</small></div>
     <div class="shot"><img src="media/ui-en.jpg" alt="Ner interface in English"><small>English chrome, LTR</small></div>
     <div class="shot"><img src="media/ui-hu.jpg" alt="Ner interface in Hungarian"><small>Magyar felület, LTR</small></div>
+    <div class="shot"><img src="media/edit-word.jpg" alt="Editing a word meaning and context"><small>Edit meanings and context, then export to Anki</small></div>
   </div>
 
   <h2 id="install">Install</h2>
@@ -171,8 +174,8 @@
     <div class="step"><p><strong>Open it</strong> from the notification or Files. Android will ask permission to install from this browser — allow it once.</p></div>
     <div class="step"><p><strong>Read.</strong> No account, no sign-in. Your words stay on the phone.</p></div>
   </div>
-  <div class="note">This is a development-signed build, so Android may warn that the app is from an unknown developer. It is not on Google Play. Version 0.11.0 · <code>android 8+</code></div>
-  <div class="hash">SHA-256: <code>36ee0a087e0d71d1bf9c8c1819d7fef373d31e26a6a17efcb4a62ffebc45d708</code></div>
+  <div class="note">This is a development-signed build, so Android may warn that the app is from an unknown developer. It is not on Google Play. Version 0.12.0 · <code>android 8+</code></div>
+  <div class="hash">SHA-256: <code>3c7f0160a9b578ce7d57e018707fda9ed4df3eee976d465bb4ef079f795a0261</code></div>
 
   <h2>An honest line</h2>
   <div class="two">
@@ -182,7 +185,7 @@
     </div>
     <div class="card">
       <h3>Not finished</h3>
-      <p>Missing: UI languages beyond Hebrew/English/Hungarian, OCR for scripts beyond Hebrew/English, Anki, cloud voices, and full morphology. Machine UI translations may have awkward phrasing. Base-language translation needs a connection the first time. Sync is LAN-only. Non-Hebrew dictionaries currently gloss into English, not Hebrew.</p>
+      <p>Missing: UI languages beyond Hebrew/English/Hungarian, OCR for scripts beyond Hebrew/English, direct AnkiDroid integration, cloud voices, and full morphology. Machine UI translations may have awkward phrasing. Base-language translation needs a connection the first time. Sync is LAN-only. Non-Hebrew dictionaries currently gloss into English, not Hebrew.</p>
     </div>
   </div>
   <div class="note">Brave is a full browser and is not embedded. The Watch screen has its own minimalist browser chrome, request/cosmetic filters, auto-skip, and a Brave handoff. A WebView cannot guarantee that YouTube never serves a first-party or server-stitched ad.</div>
