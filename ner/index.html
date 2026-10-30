@@ -109,10 +109,10 @@
       <h1>Read more.<br><em>Look things up less.</em></h1>
       <p class="lead">Ner is a reading app for language learners. Tap any word to see what it means, grade how well you know it, and keep reading. The next page already knows what you learned.</p>
       <div class="cta">
-        <a class="btn" href="../Ner-0.9.0.apk" download>↓ Download APK</a>
+        <a class="btn" href="../Ner-0.10.0.apk" download>↓ Download APK</a>
         <a class="btn alt" href="#install">How to install</a>
       </div>
-      <div class="meta">v0.9.0 · Android 8+ · 32.9 MB · dev-signed</div>
+      <div class="meta">v0.10.0 · Android 8+ · 32.9 MB · dev-signed</div>
       <div class="chips">
         <span class="chip">25 offline dictionaries</span>
         <span class="chip">EPUB + TXT + PDF</span>
@@ -120,6 +120,7 @@
         <span class="chip">YouTube captions</span>
         <span class="chip">Paged books</span>
         <span class="chip">Aa reading settings</span>
+        <span class="chip">Ad shield</span>
         <span class="chip">Any base language</span>
         <span class="chip">On-device OCR</span>
         <span class="chip">LAN sync</span>
@@ -138,6 +139,7 @@
     <div class="card"><div class="ico">▶</div><h3>Watch &amp; listen</h3><p>YouTube runs inside the app with a caption mirror: visible captions become clickable words.</p></div>
     <div class="card"><div class="ico">⌕</div><h3>25 dictionaries</h3><p>Hebrew, English, Arabic, Spanish, French, German, Italian, Portuguese, Dutch, Swedish, Danish, Norwegian, Finnish, Polish, Russian, Ukrainian, Greek, Turkish, Chinese, Cantonese, Japanese, Korean, Vietnamese, Indonesian, Thai.</p></div>
     <div class="card"><div class="ico">◒</div><h3>Your data stays local</h3><p>Words, settings, and statistics are a local JSON file. Export a backup whenever you want.</p></div>
+    <div class="card"><div class="ico">🛡</div><h3>Shielded YouTube</h3><p>An in-app browser with address bar, back/forward/reload, request blocking, cosmetic cleanup, auto-skip, and a live blocked count.</p></div>
     <div class="card"><div class="ico">文</div><h3>Any base language</h3><p>Pick a native language or type any ISO 639-1 code. Meanings translate into it and cache locally; the default follows the device locale.</p></div>
     <div class="card"><div class="ico">◫</div><h3>Scanned PDFs too</h3><p>Text PDFs use PDF.js; image-only pages fall back to bundled Tesseract OCR with Hebrew and English models, fully on-device.</p></div>
     <div class="card"><div class="ico">⇄</div><h3>Sync without a cloud</h3><p>Host from one phone, join from the other with an IP and a six-digit code. Words, bookmarks, and stats merge locally.</p></div>
@@ -156,6 +158,7 @@
     <div class="shot"><img src="media/sync.jpg" alt="Local Wi-Fi sync settings"><small>Two phones, one vocabulary — no cloud</small></div>
     <div class="shot"><img src="media/ocr.jpg" alt="OCR of a scanned PDF in the reader"><small>Scanned pages become readable text</small></div>
     <div class="shot"><img src="media/base-language.jpg" alt="Spanish word translated into Hungarian"><small>Any base language, not just Hebrew</small></div>
+    <div class="shot"><img src="media/yt-shield.jpg" alt="In-app YouTube browser with shield count"><small>In-app address bar and shield count</small></div>
   </div>
 
   <h2 id="install">Install</h2>
@@ -164,8 +167,8 @@
     <div class="step"><p><strong>Open it</strong> from the notification or Files. Android will ask permission to install from this browser — allow it once.</p></div>
     <div class="step"><p><strong>Read.</strong> No account, no sign-in. Your words stay on the phone.</p></div>
   </div>
-  <div class="note">This is a development-signed build, so Android may warn that the app is from an unknown developer. It is not on Google Play. Version 0.9.0 · <code>android 8+</code></div>
-  <div class="hash">SHA-256: <code>d2c497c15a718d7857a094eb11e4d4310d0b046d3a6d2535e5c38d6d54508f53</code></div>
+  <div class="note">This is a development-signed build, so Android may warn that the app is from an unknown developer. It is not on Google Play. Version 0.10.0 · <code>android 8+</code></div>
+  <div class="hash">SHA-256: <code>30f2c1323b576fc8ce9d8a1830ed5658880b7516e59b42380f5251f42b99686a</code></div>
 
   <h2>An honest line</h2>
   <div class="two">
@@ -178,7 +181,7 @@
       <p>Missing: interface translations (the chrome is Hebrew), OCR for scripts beyond Hebrew/English, Anki, cloud voices, and full morphology. Base-language translation needs a connection the first time. Sync is LAN-only. Non-Hebrew dictionaries currently gloss into English, not Hebrew.</p>
     </div>
   </div>
-  <div class="note">Brave is a full browser and is not embedded. The Watch screen has a request blocker and a button that opens the current page in Brave if it is installed.</div>
+  <div class="note">Brave is a full browser and is not embedded. The Watch screen has its own minimalist browser chrome, request/cosmetic filters, auto-skip, and a Brave handoff. A WebView cannot guarantee that YouTube never serves a first-party or server-stitched ad.</div>
 
   <footer>
     <span>Built by windecker.</span>
