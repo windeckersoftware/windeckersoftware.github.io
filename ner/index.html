@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ner — Hebrew-first reading for Android</title>
-<meta name="description" content="Ner is a Hebrew-first Android reading app: tap-to-grade vocabulary, books, web articles, YouTube captions, and offline dictionaries for 25 languages.">
+<title>Ner — language-learning reading for Android</title>
+<meta name="description" content="Ner is a language-learning Android reading app: tap-to-grade vocabulary, books, web articles, a focused YouTube viewer, and offline dictionaries for 25 languages.">
 <meta name="theme-color" content="#111614">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='9' fill='%232f6f5e'/><path d='M16 6c-2 4-5 5-5 9a5 5 0 0 0 10 0c0-3-2-4-3-6 0 2-1 3-2 3 1-3 0-4 0-6Z' fill='%23f6e7c8'/></svg>">
 <style>
@@ -105,14 +105,14 @@
 
   <section class="hero">
     <div>
-      <div class="eyebrow">Android · Hebrew first</div>
+      <div class="eyebrow">Android · any language</div>
       <h1>Read more.<br><em>Look things up less.</em></h1>
       <p class="lead">Ner is a reading app for language learners. Tap any word to see what it means, grade how well you know it, and keep reading. The next page already knows what you learned.</p>
       <div class="cta">
-        <a class="btn" href="../Ner-0.14.0.apk" download>↓ Download APK</a>
+        <a class="btn" href="../Ner-0.15.0.apk" download>↓ Download APK</a>
         <a class="btn alt" href="#install">How to install</a>
       </div>
-      <div class="meta">v0.14.0 · Android 8+ · 65.4 MB · dev-signed</div>
+      <div class="meta">v0.15.0 · Android 8+ · 65.4 MB · dev-signed</div>
       <div class="chips">
         <span class="chip">25 offline dictionaries</span>
         <span class="chip">EPUB + TXT + PDF</span>
@@ -138,7 +138,7 @@
   <div class="grid">
     <div class="card"><div class="ico">◐</div><h3>Read anything</h3><p>Books, pasted text, and web articles in one reader. EPUB chapters, TXT files, and text PDFs open directly.</p></div>
     <div class="card"><div class="ico">Aa</div><h3>Tap, grade, continue</h3><p>New words are blue, learning words amber. Grade 1–4, mark known with K, or ignore with X.</p></div>
-    <div class="card"><div class="ico">▶</div><h3>Watch &amp; listen</h3><p>YouTube runs inside the app with a caption mirror: visible captions become clickable words.</p></div>
+    <div class="card"><div class="ico">▶</div><h3>Watch &amp; listen</h3><p>A focused in-app YouTube player: recommendations, comments and the YouTube header are hidden, my controls collapse to one edge handle, and the lower half becomes a large, clickable caption workspace with a base-language translation.</p></div>
     <div class="card"><div class="ico">⌕</div><h3>25 dictionaries</h3><p>Hebrew, English, Arabic, Spanish, French, German, Italian, Portuguese, Dutch, Swedish, Danish, Norwegian, Finnish, Polish, Russian, Ukrainian, Greek, Turkish, Chinese, Cantonese, Japanese, Korean, Vietnamese, Indonesian, Thai.</p></div>
     <div class="card"><div class="ico">◒</div><h3>Your data stays local</h3><p>Words, settings, and statistics are a local JSON file. Export a backup whenever you want.</p></div>
     <div class="card"><div class="ico">▤</div><h3>Anki-ready words</h3><p>Edit a meaning and its context sentence, then export a tab-separated file with word, reading, meaning, context, and language.</p></div>
@@ -153,7 +153,7 @@
   <h2>Screens</h2>
   <div class="shots">
     <div class="shot"><img src="media/read-dark.jpg" alt="Books and Web modes"><small>Books / Web, with a real shelf</small></div>
-    <div class="shot"><img src="media/watch-captions.jpg" alt="YouTube captions with a word panel"><small>Captions become vocabulary</small></div>
+    <div class="shot"><img src="media/watch-focus.jpg" alt="Focused in-app YouTube view with a large subtitle workspace"><small>Focused video and a large caption workspace</small></div>
     <div class="shot"><img src="media/spanish-word.jpg" alt="Spanish word lookup"><small>Offline lookup, 25 packs</small></div>
     <div class="shot"><img src="media/reader-settings.jpg" alt="Reader settings sheet"><small>Page colour, font, paging, read aloud</small></div>
     <div class="shot"><img src="media/words-grouped.jpg" alt="Date-grouped word list"><small>Words grouped by the day you met them</small></div>
@@ -176,8 +176,8 @@
     <div class="step"><p><strong>Open it</strong> from the notification or Files. Android will ask permission to install from this browser — allow it once.</p></div>
     <div class="step"><p><strong>Read.</strong> No account, no sign-in. Your words stay on the phone.</p></div>
   </div>
-  <div class="note">This is a development-signed build, so Android may warn that the app is from an unknown developer. It is not on Google Play. Version 0.14.0 · <code>android 8+</code></div>
-  <div class="hash">SHA-256: <code>04d88b54fb5722bab1669db94eca5431745415e2307ce33cad9d6db9c44f51be</code></div>
+  <div class="note">This is a development-signed build, so Android may warn that the app is from an unknown developer. It is not on Google Play. Version 0.15.0 · <code>android 8+</code></div>
+  <div class="hash">SHA-256: <code>a0bb8b214a81cb13dd622695990a09d0ca48203edccc5ff1ce40086942d92c7e</code></div>
 
   <h2>An honest line</h2>
   <div class="two">
@@ -190,7 +190,7 @@
       <p>Missing: UI languages beyond the current eight, direct AnkiDroid integration, cloud voices, and full morphology. Machine UI translations may have awkward phrasing. Base-language translation needs a connection the first time. Sync is LAN-only. Non-Hebrew dictionaries currently gloss into English, not Hebrew.</p>
     </div>
   </div>
-  <div class="note">Brave is a full browser and is not embedded. The Watch screen has its own minimalist browser chrome, request/cosmetic filters, auto-skip, and a Brave handoff. A WebView cannot guarantee that YouTube never serves a first-party or server-stitched ad.</div>
+  <div class="note">The Watch screen is self-contained: its own collapsed control handle, request/cosmetic filters, auto-skip, and caption workspace. No external browser is needed. A WebView cannot guarantee that YouTube never serves a first-party or server-stitched ad.</div>
 
   <footer>
     <span>Built by windecker.</span>
